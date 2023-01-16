@@ -1,0 +1,19 @@
+body{
+  background-color: #888585;
+}
+
+#myName{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatarName{
+
+}
+
+.avatar{
+border-radius: 50%; box-shadow: 10px 5px 5px rgb(48, 48, 48);
+}
+
+.index{
+  align-items: center;
+}
