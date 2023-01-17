@@ -1,27 +1,63 @@
+/* Cyberpunk Pallet
+	#00ff9f #ff2a6d #ff2
+  #00b8ff #d1f7ff
+  #001eff #05d9e8
+  #bd00ff #005678
+  #d600ff #01012b
+*/
+
 body{
-background-color: #888585;
+background-color: rgb(40,0,0);
+background-image: linear-gradient(rgb(40,0,0), black);
+
 }
 
-h2{font-size: 35px;}
+h2{
+  font-size: 35px;
+}
 
-p{font-size: 22px;}
+p{
+  font-size: 22px;
+}
+a:hover{
+  background-color: #05d9e8 ;
+}
 
 .wrap{
-  padding-left: 1%;
+  text-align: center;
+  width:20%;
+  /* height: 300px; */
+background-color: rgb(30,0,0);
+ border: double #c5134b;
+ 
 }
 
 #myName{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 28px;
+  color: 	#00ff9f;
+}
+
+.avatarName{
+  text-align: center;
 }
 
 .avatar{
- width: 30%; align-items: center; border-radius: 50%; box-shadow: 10px 5px 5px rgb(48, 48, 48);
+ margin: 10px 0px 0px 10px; 
+ width: 30%; 
+ border-radius: 20%; 
+ ;
 }
 
 .aboutMe{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Share Tech Mono', monospace, sans-serif;
+  color: 	#ff2a6d;
 }
 
 .index{
   align-items: center;
+}
+
+.instagram{
+  width: 40px;
 }
