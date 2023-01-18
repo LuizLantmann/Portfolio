@@ -9,7 +9,7 @@
 body{
 background-color: rgb(40,0,0);
 background-image: linear-gradient(rgb(40,0,0), black);
-
+height: 100vh;
 }
 
 h2{
@@ -19,18 +19,34 @@ h2{
 p{
   font-size: 22px;
 }
-a:hover{
-  background-color: #05d9e8 ;
+
+a{
+color: #ff115d;
+
 }
+
+a:hover{
+  color: #05d9e8 ;
+  }
+
+  button{
+    border: transparent;
+    background-color: transparent;
+  }
+
+  button:hover{
+    border: 1.5px solid #05d9e8;
+  }
 
 .wrap{
   text-align: center;
-  width:20%;
-  /* height: 300px; */
-background-color: rgb(30,0,0);
- border: double #c5134b;
- 
+  width:400px;
+  margin: auto;
+  background-color: rgb(30,0,0);
+  border: double #c5134b;
+  box-shadow: 5px 5px 0px 0px #ff115c2d;
 }
+
 
 #myName{
   font-family: 'Share Tech Mono', monospace;
@@ -59,5 +75,8 @@ background-color: rgb(30,0,0);
 }
 
 .instagram{
+  position: relative;
+  right: full;
   width: 40px;
 }
+

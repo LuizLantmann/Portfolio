@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(40,0,0);
+  background-image: linear-gradient(rgb(40,0,0), black);
+  height: 100vh;
+  font-family: 'Share Tech Mono', monospace, sans-serif;
+}
+
+h1 {
+  color: #05d9e8 ;
+  text-align: center;
+}
+
+ul{
+  color: 	#ff2a6d;
+}
+
+.wrap{
+  width:400px;
+  margin: auto;
+  background-color: rgb(30,0,0);
+  border: double #c5134b;
+  box-shadow: 5px 5px 0px 0px #ff115c2d;
+}
