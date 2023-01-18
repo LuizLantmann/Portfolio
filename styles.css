@@ -30,7 +30,7 @@ a:hover{
   }
 
   button{
-    border: 1.3px solid #ff115d;
+    border: transparent;
     background-color: transparent;
   }
 
@@ -45,7 +45,6 @@ a:hover{
   background-color: rgb(30,0,0);
   border: double #c5134b;
   box-shadow: 5px 5px 0px 0px #ff115c2d;
- 
 }
 
 
@@ -76,6 +75,8 @@ a:hover{
 }
 
 .instagram{
+  position: relative;
+  right: full;
   width: 40px;
 }
 
