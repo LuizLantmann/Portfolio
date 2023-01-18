@@ -22,13 +22,21 @@ p{
 
 a{
 color: #ff115d;
+
 }
 
 a:hover{
   color: #05d9e8 ;
-  border:solid 1px #05d9e8;
-  padding: 1%;
-}
+  }
+
+  button{
+    border: 1.3px solid #ff115d;
+    background-color: transparent;
+  }
+
+  button:hover{
+    border: 1.5px solid #05d9e8;
+  }
 
 .wrap{
   text-align: center;
@@ -36,8 +44,10 @@ a:hover{
   margin: auto;
   background-color: rgb(30,0,0);
   border: double #c5134b;
+  box-shadow: 5px 5px 0px 0px #ff115c2d;
  
 }
+
 
 #myName{
   font-family: 'Share Tech Mono', monospace;
@@ -68,3 +78,4 @@ a:hover{
 .instagram{
   width: 40px;
 }
+
